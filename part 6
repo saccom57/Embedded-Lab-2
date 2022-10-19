@@ -25,7 +25,7 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 ;-------------------------------------------------------------------------------
  			mov.w #2D97h,R4
  			mov.w #6239h,R5
- 			mov.w #2345h,R6
+ 			mov.w #3425h,R6
 			cmp R4,R6
 			jge subfunction
  			jmp $
